@@ -1,442 +1,275 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>합정 셔츠룸 추천 1위 · 정보 | 합정역 도보3분</title>
-    <meta name="description" content="합정 셔츠룸 추천 1위 정보 페이지. 합정역 도보3분, 평점4.8점 유지중. 매주 50건 이상 고객리뷰로 검증된 서비스, 위치·가격·운영시간 상세 안내.">
-    <meta name="keywords" content="합정 셔츠룸 정보, 합정 셔츠룸 위치, 합정 셔츠룸 가격, 합정 셔츠룸 운영시간, 합정 셔츠룸 이용안내, 합정역 셔츠룸, 셔츠룸 합정, 합정 셔츠룸 추천, 합정 셔츠룸 후기">
-    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-warm-grid">
+    <title>합정 셔츠룸 추천: 실패 없는 선택을 위한 핵심 정보</title>
+    <meta name="description" content="합정 셔츠룸, 어디를 선택해야 할지 망설여진다면? 이 가이드에서 당신의 취향과 조건에 맞는 최고의 셔츠룸을 찾는 명확한 기준을 제시합니다.">
+    <meta name="keywords" content="합정 셔츠룸, 합정 셔츠룸 추천, 합정 셔츠룸 선택, 합정 셔츠룸 정보">
     <link rel="canonical" href="https://hapjeong-shirt-tip.node-link.shop/about.html">
-    <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="합정 셔츠룸 추천 1위 · 정보">
-    <meta property="og:description" content="합정 셔츠룸 추천 1위 상세정보. 합정역 도보3분, 평점4.8 유지. 위치·가격·서비스 모든 정보를 확인하세요.">
+    <meta property="og:title" content="합정 셔츠룸 추천 — 당신에게 완벽한 선택 가이드">
+    <meta property="og:description" content="합정 셔츠룸, 어디를 선택해야 할지 망설여진다면? 이 가이드에서 당신의 취향과 조건에 맞는 최고의 셔츠룸을 찾는 명확한 기준을 제시합니다.">
     <meta property="og:url" content="https://hapjeong-shirt-tip.node-link.shop/about.html">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://t3b05-hj-shirts-rc-1.vercel.app/og-image.jpg">
+    <meta property="og:image" content="https://hapjeong-shirt-tip.node-link.shop/og-image.jpg">
     <meta name="twitter:card" content="summary_large_image">
-
-    <!-- Brutalist Avant-Garde Design System - kr-raw-concrete -->
+    <meta name="twitter:title" content="합정 셔츠룸 추천 — 당신에게 완벽한 선택 가이드">
+    <meta name="twitter:description" content="합정 셔츠룸, 어디를 선택해야 할지 망설여진다면? 이 가이드에서 당신의 취향과 조건에 맞는 최고의 셔츠룸을 찾는 명확한 기준을 제시합니다.">
+    <meta name="twitter:image" content="https://hapjeong-shirt-tip.node-link.shop/twitter-image.jpg">
     <style>
-        /* ============================================
-           BRUTALIST AVANT-GARDE · KR-RAW-CONCRETE v2.4
-           ============================================ */
-        *,
-        *::before,
-        *::after {
+        :root {
+            --color-brand-blue: #007aff;
+            --color-brand-green: #34c759;
+            --color-brand-orange: #ff9500;
+            --color-brand-red: #ff3b30;
+            --color-brand-purple: #5856d6;
+            --color-brand-teal: #30d158;
+            --color-brand-pink: #ff2d55;
+            --color-brand-white: #ffffff;
+            --color-brand-black: #000000;
+            --color-brand-gray-100: #f2f2f7;
+            --color-brand-gray-200: #e5e5ea;
+            --color-brand-gray-300: #d1d1d6;
+            --color-brand-gray-400: #c7c7cc;
+            --color-brand-gray-500: #8e8e93;
+            --color-brand-gray-600: #636366;
+            --color-brand-gray-700: #48484a;
+            --color-brand-gray-800: #2c2c2e;
+            --color-brand-gray-900: #1c1c1e;
+            --font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            --font-weight-regular: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+            --border-radius-small: 4px;
+            --border-radius-medium: 8px;
+            --border-radius-large: 12px;
+            --spacing-1: 4px;
+            --spacing-2: 8px;
+            --spacing-3: 12px;
+            --spacing-4: 16px;
+            --spacing-5: 20px;
+            --spacing-6: 24px;
+            --spacing-7: 28px;
+            --spacing-8: 32px;
+            --spacing-9: 36px;
+            --spacing-10: 40px;
+            --line-height-tight: 1.2;
+            --line-height-normal: 1.5;
+            --line-height-loose: 1.8;
+            --shadow-small: 0 2px 4px rgba(0,0,0,0.1);
+            --shadow-medium: 0 4px 8px rgba(0,0,0,0.1);
+            --shadow-large: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        *, *::before, *::after {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
-
-        :root {
-            --bg-primary: #f4f0eb;
-            --bg-secondary: #e8e2d9;
-            --bg-card: #ffffff;
-            --text-primary: #1a1a1a;
-            --text-secondary: #3d3d3d;
-            --accent: #c62828;
-            --accent-hover: #b71c1c;
-            --border: #2d2d2d;
-            --border-thick: 4px;
-            --shadow: 8px 8px 0 rgba(0, 0, 0, 0.85);
-            --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            --font-mono: 'JetBrains Mono', 'Courier New', monospace;
-            --brutal-radius: 0px;
-            --brutal-pad: 1.2rem;
-            --max-width: 1280px;
-            --header-h: 70px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-            -webkit-text-size-adjust: 100%;
-        }
-
         body {
-            font-family: var(--font-sans);
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-            padding-top: var(--header-h);
-            min-height: 100vh;
+            font-family: var(--font-family-system);
+            line-height: var(--line-height-normal);
+            color: var(--color-brand-gray-900);
+            background-color: var(--color-brand-gray-100);
+            margin: 0;
+            padding: 0;
         }
-
-        /* ---- navigation / header ---- */
-        .brutal-header {
-            position: fixed;
+        .n-main-q4iu {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-6);
+        }
+        .n-wrap-4mka-nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: var(--color-brand-white);
+            border-bottom: 1px solid var(--color-brand-gray-200);
+            padding: var(--spacing-4) var(--spacing-6);
+        }
+        .n-hero-jc4r-content {
+            text-align: center;
+            margin-bottom: var(--spacing-8);
+        }
+        .n-hero-jc4r-content h1 {
+            font-size: 2.5rem;
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--spacing-4);
+            color: var(--color-brand-gray-900);
+        }
+        .n-hero-jc4r-content p {
+            font-size: 1.1rem;
+            color: var(--color-brand-gray-600);
+        }
+        .q-item-bq7n {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-6);
+            margin-bottom: var(--spacing-8);
+        }
+        .n-hero-jc4r-links a {
+            display: inline-block;
+            padding: var(--spacing-3) var(--spacing-6);
+            background-color: var(--color-brand-blue);
+            color: var(--color-brand-white);
+            text-decoration: none;
+            border-radius: var(--border-radius-medium);
+            font-weight: var(--font-weight-semibold);
+            transition: background-color 0.2s ease;
+        }
+        .n-hero-jc4r-links a:hover {
+            background-color: #005bb5;
+        }
+        .r-item-fbrh {
+            background-color: var(--color-brand-white);
+            padding: var(--spacing-6);
+            border-radius: var(--border-radius-large);
+            box-shadow: var(--shadow-medium);
+            position: relative;
+            overflow: hidden;
+        }
+        .r-item-fbrh::before {
+            content: '';
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            height: var(--header-h);
-            background: var(--bg-secondary);
-            border-bottom: var(--border-thick) solid var(--border);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 1.5rem;
+            height: 4px;
+            background-color: var(--color-brand-blue);
         }
-
-        .brutal-logo {
-            font-family: var(--font-mono);
+        .r-item-fbrh-content h3 {
             font-size: 1.5rem;
-            font-weight: 900;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            text-decoration: none;
-            border: 2px solid var(--border);
-            padding: 0.3rem 0.8rem;
-            background: white;
-            box-shadow: var(--shadow);
+            font-weight: var(--font-weight-bold);
+            margin-bottom: var(--spacing-4);
+            color: var(--color-brand-gray-900);
         }
-
-        .brutal-logo:hover {
-            background: var(--accent);
-            color: white;
+        .r-item-fbrh-content p {
+            font-size: 1rem;
+            color: var(--color-brand-gray-700);
+            margin-bottom: var(--spacing-4);
         }
-
-        .brutal-nav {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
+        .r-item-fbrh-content ul {
+            list-style: disc inside;
+            margin-left: var(--spacing-4);
+            color: var(--color-brand-gray-700);
         }
-
-        .brutal-nav a {
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            text-decoration: none;
-            text-transform: uppercase;
-            letter-spacing: 0.04em;
-            padding: 0.4rem 0.8rem;
-            border: 2px solid transparent;
-            transition: all 0.15s ease;
+        .r-item-fbrh-content li {
+            margin-bottom: var(--spacing-2);
         }
-
-        .brutal-nav a:hover,
-        .brutal-nav a.active {
-            border-color: var(--border);
-            background: white;
-            box-shadow: 4px 4px 0 var(--border);
-        }
-
-        .brutal-nav a.active {
-            background: var(--accent);
-            color: white;
-            border-color: var(--accent);
-        }
-
-        /* hamburger menu */
+        /* Hamburger Menu Styles */
         .hamburger-menu {
             display: none;
-            flex-direction: column;
-            gap: 5px;
-            background: none;
-            border: none;
             cursor: pointer;
-            padding: 0.3rem;
+            padding: var(--spacing-2);
         }
-
-        .hamburger-menu span {
-            display: block;
-            width: 28px;
-            height: 4px;
-            background: var(--text-primary);
-            border-radius: 0;
-            transition: all 0.2s;
-        }
-
-        @media (max-width: 768px) {
-            .brutal-nav {
-                display: none;
-                position: absolute;
-                top: var(--header-h);
-                left: 0;
-                right: 0;
-                background: var(--bg-secondary);
-                flex-direction: column;
-                padding: 1.5rem;
-                gap: 0.8rem;
-                border-bottom: var(--border-thick) solid var(--border);
-                box-shadow: var(--shadow);
-            }
-
-            .brutal-nav.open {
-                display: flex;
-            }
-
-            .hamburger-menu {
-                display: flex;
-            }
-
-            .brutal-logo {
-                font-size: 1.2rem;
-            }
-        }
-
-        /* ---- main layout ---- */
-        .brutal-container {
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: 2rem 1.5rem;
-        }
-
-        /* ---- hero block ---- */
-        .brutal-hero {
-            background: var(--bg-secondary);
-            border: var(--border-thick) solid var(--border);
-            padding: 2.5rem 2rem;
-            box-shadow: var(--shadow);
-            margin-bottom: 3rem;
-        }
-
-        .brutal-hero h1 {
-            font-family: var(--font-mono);
-            font-size: 2.8rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: -0.03em;
-            line-height: 1.1;
-            color: var(--accent);
-            margin-bottom: 1rem;
-        }
-
-        .brutal-hero p {
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: var(--text-secondary);
-            max-width: 750px;
-            border-left: 6px solid var(--accent);
-            padding-left: 1.2rem;
-        }
-
-        .brutal-hero .badge {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            font-family: var(--font-mono);
-            font-size: 0.8rem;
-            font-weight: 700;
-            padding: 0.3rem 0.8rem;
-            margin-top: 1rem;
-            border: 2px solid var(--border);
-            text-transform: uppercase;
-        }
-
-        /* ---- cards grid ---- */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 2rem;
-            margin-bottom: 3rem;
+        .hamburger-menu .bar {
+            width: 25px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: var(--color-brand-gray-900);
+            transition: all 0.3s ease-in-out;
         }
 
         @media (max-width: 768px) {
-            .info-grid {
-                grid-template-columns: 1fr;
+            .n-main-q4iu {
+                padding: var(--spacing-4);
             }
-
-            .brutal-hero h1 {
+            .n-hero-jc4r-content h1 {
                 font-size: 2rem;
             }
+            .q-item-bq7n {
+                grid-template-columns: 1fr;
+            }
+            .hamburger-menu {
+                display: block;
+            }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px; /* Adjust based on nav height */
+                left: 0;
+                width: 100%;
+                background-color: var(--color-brand-white);
+                padding: var(--spacing-4);
+                box-shadow: var(--shadow-medium);
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .nav-links a {
+                margin: var(--spacing-2) 0;
+            }
         }
+    </style>
+</head>
+<body>
+    <header class="n-wrap-4mka-nav">
+        <div class="n-main-q4iu">
+            <nav style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="logo">
+                    <a href="/" style="font-size: 1.5rem; font-weight: bold; color: var(--color-brand-gray-900); text-decoration: none;">합정 셔츠룸</a>
+                </div>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="nav-links">
+                    <a href="/">메인</a>
+                    <a href="/info">정보</a>
+                    <a href="/guide">가이드</a>
+                    <a href="/contact">문의</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-        .brutal-card {
-            background: var(--bg-card);
-            border: var(--border-thick) solid var(--border);
-            padding: 1.8rem 1.5rem;
-            box-shadow: var(--shadow);
-            transition: transform 0.1s ease, box-shadow 0.1s ease;
-        }
+    <main class="n-main-q4iu">
+        <section class="n-hero-jc4r-content">
+            <h1>합정 셔츠룸, 제대로 알고 선택하라</h1>
+            <p>수많은 합정 셔츠룸 속에서 길을 잃고 싶지 않다면, 이 정보가 당신의 나침반이 될 것입니다. 겉만 번지르르한 곳에 시간과 돈을 낭비하지 마세요.</p>
+        </section>
 
-        .brutal-card:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.9);
-        }
+        <section class="q-item-bq7n">
+            <article class="r-item-fbrh">
+                <div class="r-item-fbrh-content">
+                    <h3>가격, 투명함이 생명이다</h3>
+                    <p>합정 셔츠룸의 가격은 천차만별입니다. 하지만 진짜 중요한 것은 '투명성'입니다. 숨겨진 추가 비용이나 불확실한 요금 체계는 절대 용납할 수 없습니다. 서비스 내용과 가격이 명확하게 공개되는 곳을 선택해야 합니다. 의심스러운 부분은 즉시 질문하고, 만족스러운 답변을 얻지 못하면 과감히 다른 곳을 알아보세요.</p>
+                </div>
+            </article>
+            <article class="r-item-fbrh">
+                <div class="r-item-fbrh-content">
+                    <h3>서비스, 본질에 집중하라</h3>
+                    <p>셔츠룸의 본질은 '서비스'입니다. 화려한 인테리어에 현혹되지 마세요. 진정으로 중요한 것은 직원의 전문성, 고객 응대 태도, 그리고 당신이 원하는 분위기를 얼마나 잘 맞춰주는가 입니다. 모든 직원이 숙련된 전문가인지, 당신의 니즈를 정확히 파악하고 만족시키기 위해 노력하는지 확인하세요. 기본에 충실한 곳이 결국 최고의 경험을 선사합니다.</p>
+                </div>
+            </article>
+            <article class="r-item-fbrh">
+                <div class="r-item-fbrh-content">
+                    <h3>시설, 청결과 편의성을 우선하라</h3>
+                    <p>깨끗함은 기본 중의 기본입니다. 쾌적한 환경은 서비스 만족도를 좌우하는 핵심 요소입니다. 주기적으로 청결 상태를 점검하고, 개인적인 편의를 위한 시설(예: 충분한 공간, 조명 조절 등)이 잘 갖춰져 있는지 확인하세요. 시설이 노후되었거나 위생 상태가 좋지 않다면, 다른 선택지를 고려하는 것이 현명합니다.</p>
+                </div>
+            </article>
+        </section>
 
-        .brutal-card h3 {
-            font-family: var(--font-mono);
-            font-size: 1.3rem;
-            font-weight: 800;
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            border-bottom: 3px solid var(--accent);
-            padding-bottom: 0.3rem;
-            display: inline-block;
-        }
+        <section class="n-hero-jc4r-content">
+            <h2>현명한 선택, 당신의 기준이 결정한다</h2>
+            <p>합정 셔츠룸 선택, 더 이상 고민하지 마세요. 이 정보들을 바탕으로 당신의 기대치를 충족하는 최적의 장소를 찾으시길 바랍니다.</p>
+            <div class="n-hero-jc4r-links">
+                <a href="/guide">선택 가이드 자세히 보기</a>
+            </div>
+        </section>
+    </main>
 
-        .brutal-card ul {
-            list-style: none;
-            padding: 0;
-        }
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navLinks = document.querySelector('.nav-links');
 
-        .brutal-card li {
-            padding: 0.5rem 0;
-            border-bottom: 1px dashed var(--border);
-            font-weight: 500;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .brutal-card li:last-child {
-            border-bottom: none;
-        }
-
-        .brutal-card .label {
-            font-weight: 700;
-            color: var(--accent);
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            text-transform: uppercase;
-        }
-
-        .brutal-card .value {
-            text-align: right;
-            font-weight: 600;
-        }
-
-        .brutal-card .highlight {
-            background: #ffeb3b;
-            padding: 0.1rem 0.3rem;
-            font-weight: 800;
-        }
-
-        /* ---- data table ---- */
-        .brutal-table-wrap {
-            overflow-x: auto;
-            margin-bottom: 3rem;
-            border: var(--border-thick) solid var(--border);
-            background: var(--bg-card);
-            box-shadow: var(--shadow);
-        }
-
-        .brutal-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-        }
-
-        .brutal-table th {
-            background: var(--border);
-            color: white;
-            padding: 0.8rem 1rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            font-weight: 800;
-            text-align: left;
-        }
-
-        .brutal-table td {
-            padding: 0.8rem 1rem;
-            border-bottom: 1px solid #ccc;
-            font-weight: 500;
-        }
-
-        .brutal-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .brutal-table .accent-cell {
-            color: var(--accent);
-            font-weight: 800;
-        }
-
-        /* ---- faq ---- */
-        .faq-block {
-            background: var(--bg-secondary);
-            border: var(--border-thick) solid var(--border);
-            padding: 2rem;
-            box-shadow: var(--shadow);
-            margin-bottom: 3rem;
-        }
-
-        .faq-block h2 {
-            font-family: var(--font-mono);
-            font-size: 2rem;
-            font-weight: 900;
-            text-transform: uppercase;
-            margin-bottom: 1.5rem;
-            border-left: 8px solid var(--accent);
-            padding-left: 1rem;
-        }
-
-        .faq-item {
-            border-bottom: 2px solid var(--border);
-            padding: 1rem 0;
-        }
-
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-
-        .faq-item .question {
-            font-weight: 800;
-            font-size: 1.1rem;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .faq-item .question::after {
-            content: '+';
-            font-size: 1.5rem;
-            font-weight: 900;
-            color: var(--accent);
-        }
-
-        .faq-item .answer {
-            margin-top: 0.6rem;
-            color: var(--text-secondary);
-            font-weight: 500;
-            line-height: 1.7;
-            padding-right: 1.5rem;
-        }
-
-        /* ---- footer ---- */
-        .brutal-footer {
-            background: var(--border);
-            color: white;
-            padding: 2rem 1.5rem;
-            text-align: center;
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            border-top: var(--border-thick) solid var(--accent);
-            margin-top: 2rem;
-        }
-
-        .brutal-footer a {
-            color: white;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
-
-        .brutal-footer a:hover {
-            color: var(--accent);
-        }
-
-        /* ---- utilities ---- */
-        .text-center {
-            text-align: center;
-        }
-        .mt-2 {
-            margin-top: 2rem;
-        }
-        .mb-2 {
-            margin-bottom: 2rem;
-        }
-
-        .btn-cta {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            font-family: var(--font-mono);
-            font-weight: 800;
-            text-transform:
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
